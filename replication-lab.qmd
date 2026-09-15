@@ -164,6 +164,8 @@ Consider:
 
 This study investigates whether Ridge Regression or Random Forest provides better predictions of hourly bike-rental demand. A model would be considered better if it produces lower prediction errors based on RMSE and MAE. To support this claim, the models should be compared using the same predictors and performance measures under both random and temporal evaluation designs.
 
+This lab uses a direct replication strategy because the same prediction problem, predictors, models, and metrics are evaluated while changing the train-test evaluation design.
+
 # Predict Before You Inspect
 
 Before running the analysis, record your expectations.
@@ -268,6 +270,8 @@ Consider:
 **Your response:**
 
 The model comparisons are aligned because both models predict the same outcome and use the same predictor information. RMSE and MAE are used for both models, and preprocessing is applied consistently. The test observations are kept separate from model fitting. The main methodological difference is how the training and testing observations are separated, allowing the effect of evaluation design to be compared fairly.
+
+The analysis was completed in Python using VS Code with pandas, NumPy, and scikit-learn, using the provided lab01_analysis.py script.
 
 # I — Inspect
 
